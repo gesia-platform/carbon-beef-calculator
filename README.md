@@ -24,6 +24,19 @@ calculateCO2ByDomesticBeef(consumption)
  - 2850000000000000000000 (in UI it should be divided by 18 decimals 2850)
 ```
 
+## 🚀 Smart Contract Deployment Information
+
+The Smart Contract-Based Carbon Footprint Calculator has been deployed on the Gesia Chain. Below are the deployment details:
+
+### Calculator Contract
+
+- **Contract Address**: 0x6eBC3598057416d1F25AeE5D5F180002A13f9344
+- **Transaction Hash**: 0x8d9d58b6892b512ecbfc015c4ce265b24b25b5cc1bb2f68595d66a2401402fd9
+
+You can verify the deployment of the Calculator Contract by checking the contract address and transaction hash on [Gesia Explorer](https://explorer.gesia.io). Here are the links for your convenience:
+
+- [Calculator Contract on Gesia Chain](https://explorer.gesia.io/address/0x6eBC3598057416d1F25AeE5D5F180002A13f9344)
+
 ## 📝 How is it calculated?
 The carbon emissions are calculated based on the emission factors and calculation methods referenced from [Prediction of the Carbon Dioxide Emission Change Resulting from the Changes in Bovine Meat Consumption Behavior in Korea](https://jekosae.or.kr/_common/do.php?a=full&b=41&bidx=385&aidx=4856)
 
