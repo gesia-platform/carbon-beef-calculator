@@ -40,6 +40,16 @@ You can verify the deployment of the Calculator Contract by checking the contrac
 ## 📝 How is it calculated?
 The carbon emissions are calculated based on the emission factors and calculation methods referenced from [Prediction of the Carbon Dioxide Emission Change Resulting from the Changes in Bovine Meat Consumption Behavior in Korea](https://jekosae.or.kr/_common/do.php?a=full&b=41&bidx=385&aidx=4856)
 
+The following formula is the essential formula of Carbon Footprint Calculator.
+``` plain
+# emission factor of imported beef: 3.02
+# emission factor of domestic beef: 2.85
+
+annual beef consumption(kg/yr) x emission factor of beef(kgCO2/kg)
+```
+
+Please refer to the [Link](https://docs.google.com/spreadsheets/d/1Ux_1j0GeKGeHm8ODT-M-Hr23sCayQYw70shNw2le0Bs/edit#gid=834335308) for more detailed info.
+
 ## 📚 Sources
 - [Prediction of the Carbon Dioxide Emission Change Resulting from the Changes in Bovine Meat Consumption Behavior in Korea](https://jekosae.or.kr/_common/do.php?a=full&b=41&bidx=385&aidx=4856)
 
