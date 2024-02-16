@@ -6,32 +6,47 @@
 The Smart Contract-Based Footprint Calculator is a decentralized tool designed to estimate the carbon footprint associated with pete consumption. This smart contract operates on a blockchain platform and provides a straightforward way to calculate and retrieve carbon emission data from the blockchain.
 
 ## ✨ Features
-**Calculate Carbon Footprint (Public)**: Users can calculate the carbon footprint from the set Beef carbon emission factor. This public function returns an estimate of the carbon footprint associated with the weight of the Beef.
-```
-calculateCO2ByImportedBeef(consumption)
+### Calculate Carbon Footprint (Public)
+> Users can calculate the carbon footprint from the set Beef carbon emission factor. This public function returns an estimate of the carbon footprint associated with the weight of the Beef.
 
-1000kg/year(consumption)
- - Scale by 10000
- - calculateCO2ByImportedBeef(10000000)
- - 3020000000000000000000 (in UI it should be divided by 18 decimals 3020)
+### calculateCO2ByImportedBeef(consumption)
 ```
-```
-calculateCO2ByDomesticBeef(consumption)
+Overview:
+ - This function calculates the carbon footprint according to annual consumption of imported beef.
+ 
+Parameter:
+ - consumption(kg/year): "consumption" is the annual consumption value of imported beef.
 
-1000kg/year(consumption)
- - Scale by 10000
- - calculateCO2ByDomesticBeef(10000000)
- - 2850000000000000000000 (in UI it should be divided by 18 decimals 2850)
+Example:
+ - consumption: 1000(kg/year)
+    1. Scale by 10000
+    2. calculateCO2ByImportedBeef(10000000)
+    3. 3020000000000000000000 (in UI it should be divided by 18 decimals 3020)
+```
+
+### calculateCO2ByDomesticBeef(consumption)
+```
+Overview:
+ - This function calculates the carbon footprint according to annual consumption of domestic beef.
+ 
+Parameter:
+ - consumption: "consumption" is the annual consumption value of domestic beef.
+
+Example:
+ - 1000kg/year(consumption)
+    1. Scale by 10000
+    2. calculateCO2ByDomesticBeef(10000000)
+    3. 2850000000000000000000 (in UI it should be divided by 18 decimals 2850)
 ```
 
 ## 🚀 Smart Contract Deployment Information
-
 The Smart Contract-Based Carbon Footprint Calculator has been deployed on the Gesia Chain. Below are the deployment details:
 
 ### Calculator Contract
-
-- **Contract Address**: 0x6eBC3598057416d1F25AeE5D5F180002A13f9344
-- **Transaction Hash**: 0x8d9d58b6892b512ecbfc015c4ce265b24b25b5cc1bb2f68595d66a2401402fd9
+```
+Contract Address: 0x6eBC3598057416d1F25AeE5D5F180002A13f9344
+Transaction Hash: 0x8d9d58b6892b512ecbfc015c4ce265b24b25b5cc1bb2f68595d66a2401402fd9
+```
 
 You can verify the deployment of the Calculator Contract by checking the contract address and transaction hash on [Gesia Explorer](https://explorer.gesia.io). Here are the links for your convenience:
 
